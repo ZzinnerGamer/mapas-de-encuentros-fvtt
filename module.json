@@ -1,0 +1,52 @@
+{
+  "id": "mapas-de-encuentros",
+  "title": "Mapas de Encuentros",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "packs": [
+    {
+      "name": "mapas-de-encuentros",
+      "label": "Mapas de Encuentros",
+      "path": "packs/mapas-de-encuentros",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "informacion-de-mapas",
+      "label": "Información de Mapas",
+      "path": "packs/informacion-de-mapas",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "monks-active-tiles",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "tagger",
+        "type": "module"
+      },
+      {
+        "id": "michaelghelfi",
+        "type": "module"
+      },
+      {
+        "id": "ivan-duch-music-packs",
+        "type": "module"
+      }
+    ]
+  }
+}
