@@ -48,5 +48,7 @@
         "type": "module"
       }
     ]
-  }
+  },
+  "manifest": "https://raw.githubusercontent.com/ZzinnerGamer/mapas-de-encuentros-fvtt/main/module.json",
+  "download": "https://github.com/ZzinnerGamer/mapas-de-encuentros-fvtt/archive/refs/heads/main.zip"
 }
